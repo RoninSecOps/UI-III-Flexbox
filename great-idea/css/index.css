@@ -342,31 +342,37 @@ header {
 } */
 
 .main {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  align-items: center;
   margin-bottom: 40px;
 }
 
-.topic {
-  width: 50%;
-}
-
-h1 {
+.main h1 {
   font-size: 60px;
-  text-align: center;
+  padding: 5%;
 }
 
-.main-img {
+.header-logo {
   width: 50%;
-  text-align: right;
+  padding: 5%;
 }
 
 button {
   background: white;
-  padding: 5px 20px;
-  width: 30%;
-  margin-left: 35%;
-  margin-right: 35%;
+
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.btn-content {
+  padding: 5px 0;
+  font-weight: 600;
+  font-size: 11px;
 }
 button:hover {
   cursor: pointer;
