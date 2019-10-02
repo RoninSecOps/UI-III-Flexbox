@@ -449,6 +449,8 @@ hr {
 }
 
 address {
+  display: flex;
+  flex-flow: column wrap;
   padding-top: 35px;
 }
 footer {
