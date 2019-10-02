@@ -173,3 +173,85 @@ p {
   text-decoration: none;
   color: gray;
 }
+p {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navigation a {
+  text-decoration: none;
+  color: gray;
+}
+.services-header-img {
+  margin-bottom: 5%;
+}
+hr {
+  margin: 5% 0;
+  border: 1px solid black;
+}
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.digital-design {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+}
+.ux-ui {
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+}
+
+.digital-marketing {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+
+  height: 100%;
+}
+
+.web-development {
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+}
+
+.ios-development {
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+}
+
+.android-development {
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+  flex-basis: content;
+}
+button {
+  font-size: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 0;
+  margin-right: 70%;
+  font-weight: 600;
+  cursor: pointer;
+}
