@@ -364,7 +364,6 @@ header {
 
 button {
   background: white;
-
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
@@ -385,7 +384,9 @@ section {
 }
 
 .top-section {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 h2 {
@@ -399,11 +400,11 @@ h2 {
 }
 
 .futures {
-  width: 50%;
+  width: 45%;
 }
 
 .about {
-  width: 50%;
+  width: 45%;
 }
 
 .middle-img {
@@ -411,9 +412,10 @@ h2 {
 }
 
 .section-bottom {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
-  vertical-align: top;
+  justify-content: space-between;
 }
 .section-bottom div {
   margin-right: 5px;
