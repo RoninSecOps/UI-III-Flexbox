@@ -450,7 +450,7 @@ hr {
 
 address {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   padding-top: 35px;
 }
 footer {
