@@ -312,8 +312,12 @@ nav {
 }
 
 .navigation {
+  justify-content: space-between;
   margin-top: 20px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
 }
 
 header {
@@ -324,27 +328,22 @@ header {
   margin-top: 5%;
 }
 
-.menu a {
+.navigation a {
   color: grey;
   text-decoration: none;
   font-size: 18px;
   margin-right: 45px;
+  align-self: center;
 }
-.menu a:hover {
+.navigation a:hover {
   color: red;
   background: gold;
   border-radius: 5px;
 }
 
-.nav-logo {
-  width: 25%;
-  text-align: right;
-}
-
-.logo {
-  text-align: right;
-  vertical-align: middle;
-}
+/* .logo {
+ 
+} */
 
 .main {
   display: inline-block;
