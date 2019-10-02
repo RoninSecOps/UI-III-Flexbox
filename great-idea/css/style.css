@@ -255,3 +255,38 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+.bottom {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.facts {
+  width: 48%;
+  flex-basis: content;
+}
+
+ul {
+  margin-top: 10%;
+}
+img.services-info-img {
+  display: block;
+  width: 378px;
+  height: 270px;
+}
+li {
+  list-style-type: square;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+footer {
+  margin-bottom: 10%;
+}
+footer p {
+  margin-top: 10%;
+  text-align: center;
+}
