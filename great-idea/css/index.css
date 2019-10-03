@@ -508,7 +508,7 @@ footer {
     justify-content: center;
   }
   .middle-img {
-    /* display: none; */
+display: none;
     width: 80%;
     position: relative;
     left: 12%;
@@ -523,7 +523,7 @@ footer {
     border: 1px dashed black;
     border-radius: 10px;
     width: 80%;
-    /* padding-right: 15px; */
+  padding-right: 15px;
     padding: 3% 1% 5% 2%;
     margin: 2%;
   }
