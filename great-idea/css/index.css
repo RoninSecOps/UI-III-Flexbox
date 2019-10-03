@@ -458,7 +458,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
-/* @media only screen and (max-width: 500px) { //<--- test code
+@media only screen and (max-width: 500px) {
   body {
     width: 473px;
     background-color: white;
@@ -508,7 +508,6 @@ footer {
     justify-content: center;
   }
   .middle-img {
-display: none;
     width: 80%;
     position: relative;
     left: 12%;
@@ -523,7 +522,7 @@ display: none;
     border: 1px dashed black;
     border-radius: 10px;
     width: 80%;
-  padding-right: 15px;
+    padding-right: 15px;
     padding: 3% 1% 5% 2%;
     margin: 2%;
   }
@@ -532,7 +531,7 @@ display: none;
     position: relative;
     padding: 1%;
     width: 32%;
-    left: 3%;
+    left: 35%;
   }
   h2 {
     text-align: center;
@@ -559,8 +558,3 @@ display: none;
     margin-bottom: 4%;
   }
 }
-@media only screen and (max-width: 896px) {
-  body {
-    background: red;
-  }
-} */
