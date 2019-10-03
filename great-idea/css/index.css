@@ -458,3 +458,109 @@ footer {
   padding: 20px;
   text-align: center;
 }
+/* @media only screen and (max-width: 500px) { //<--- test code
+  body {
+    width: 473px;
+    background-color: white;
+    margin: auto 0;
+  }
+
+  .navigation {
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    left: 30%;
+  }
+
+  .navigation a {
+    margin-left: 6%;
+    padding: 1%;
+  }
+
+  .logo {
+    padding: 1%;
+    order: -1;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    position: relative;
+    left: -5%;
+  }
+
+  .header-logo {
+    display: none;
+  }
+  .main {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    left: 10%;
+  }
+  h1 {
+    width: 80%;
+  }
+  .top-section,
+  .section-bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .middle-img {
+    /* display: none; */
+    width: 80%;
+    position: relative;
+    left: 12%;
+  }
+  .about,
+  .futures,
+  .services,
+  .vision,
+  .product {
+    position: relative;
+    left: 10%;
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 80%;
+    /* padding-right: 15px; */
+    padding: 3% 1% 5% 2%;
+    margin: 2%;
+  }
+
+  address {
+    position: relative;
+    padding: 1%;
+    width: 32%;
+    left: 3%;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    position: relative;
+    left: -6%;
+  }
+  address h3 p.contact-content {
+    text-align: center;
+  }
+  footer {
+    width: 75%;
+    position: relative;
+    left: 15%;
+  }
+  hr {
+    position: relative;
+    left: 2%;
+    width: 75%;
+  }
+  hr.bottom-hr {
+    margin-bottom: 4%;
+  }
+}
+@media only screen and (max-width: 896px) {
+  body {
+    background: red;
+  }
+} */
