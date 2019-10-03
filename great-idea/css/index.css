@@ -458,6 +458,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
+/* Test Code */
 @media only screen and (max-width: 500px) {
   body {
     width: 473px;
