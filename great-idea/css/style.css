@@ -192,8 +192,7 @@ hr {
   border: 1px solid black;
 }
 .services-container {
- display: flex;
- 
+  display: flex;
 }
 .main {
   display: flex;
@@ -204,51 +203,19 @@ hr {
   margin-top: 30px;
 }
 
-.digital-design {
-  margin-bottom: 30px;
-  border: 1px solid black;
-  width: 48%;
-  background: lightgrey;
-  padding: 20px;
-}
-.ux-ui {
-  border: 1px solid black;
-  width: 48%;
-  background: lightgrey;
-  padding: 20px;
-}
-
-.digital-marketing {
-  margin-bottom: 30px;
-  border: 1px solid black;
-  width: 48%;
-  background: lightgrey;
-  padding: 20px;
-
-  height: 100%;
-}
-
-.web-development {
-  border: 1px solid black;
-  width: 48%;
-  background: lightgrey;
-  padding: 20px;
-}
-
-.ios-development {
-  border: 1px solid black;
-  width: 48%;
-  background: lightgrey;
-  padding: 20px;
-}
-
+.digital-design,
+.ux-ui,
+.digital-marketing,
+.web-development,
+.ios-development,
 .android-development {
+  margin-bottom: 30px;
   border: 1px solid black;
   width: 48%;
   background: lightgrey;
   padding: 20px;
-  flex-basis: content;
 }
+
 button {
   font-size: 10px;
   background: white;
@@ -279,7 +246,6 @@ ul {
   margin-top: 10%;
 }
 img.services-info-img {
-  display: block;
   width: 378px;
   height: 270px;
 }
