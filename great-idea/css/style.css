@@ -191,6 +191,10 @@ hr {
   margin: 5% 0;
   border: 1px solid black;
 }
+.services-container {
+ display: flex;
+ 
+}
 .main {
   display: flex;
   align-items: flex-start;
