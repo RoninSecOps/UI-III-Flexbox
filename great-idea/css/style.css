@@ -235,15 +235,16 @@ button {
   margin-top: 30px;
 }
 .facts {
-  width: 45%;
+  width: 48%;
 }
 .list-container {
   margin-top: 7%;
 }
-
+.bottom-img {
+  width: 48%;
+}
 img.services-info-img {
   width: 100%;
-  height: 270px;
 }
 
 li {
