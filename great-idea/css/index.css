@@ -233,7 +233,7 @@ h2 {
 
 .futures,
 .about {
-  width: 49%;
+  width: 48%;
 }
 
 .middle-img {
@@ -248,8 +248,10 @@ h2 {
 .services,
 .product,
 .vision {
-  padding: 1% 2%;
   width: 33%;
+}
+.product {
+  margin: 0 4%;
 }
 
 hr {
