@@ -152,7 +152,7 @@ h5 {
 
 /* Your code starts here! */
 body {
-  width: 880px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -191,8 +191,11 @@ header {
 .main h1 {
   font-size: 4rem;
 }
-.logo2 {
-  width: 50%;
+.middle-img {
+  text-align: center;
+}
+.middle-img img {
+  width: 100%;
 }
 
 button {
@@ -228,12 +231,9 @@ h2 {
   font-size: 15px;
 }
 
-.futures {
-  width: 50%;
-}
-
+.futures,
 .about {
-  width: 50%;
+  width: 49%;
 }
 
 .middle-img {
@@ -243,7 +243,7 @@ h2 {
 
 .section-bottom {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .services,
 .product,
@@ -274,3 +274,143 @@ address {
   padding: 1%;
   text-align: center;
 }
+
+/* ------------Test Code----------- */
+
+/* @media (max-width: 800px) {
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .navigation a {
+    width: 12%;
+  }
+  .logo {
+    order: -1;
+  }
+
+  .header-logo,
+  hr {
+    display: none;
+  }
+  .main {
+    width: 400px;
+    align-content: flex-start;
+  }
+
+  .top-section {
+    justify-content: space-evenly;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .futures {
+  }
+  .about {
+  }
+  .middle-img {
+    width: 50%;
+  }
+} */
+
+/* @media (max-width: 500px) {
+  body {
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .navigation {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center; */
+/* position: relative; */
+/* left: 30%;  } */
+
+/* .navigation a {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .logo {
+    padding: 1%;
+    order: -1;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    position: relative;
+    left: -5%;
+  }
+
+  .header-logo {
+    display: none;
+  }
+  .main {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    left: 10%;
+    margin-bottom: 1%;
+  }
+
+  .top-section,
+  .section-bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .middle-img {
+    width: 80%;
+    position: relative;
+    left: 12%;
+  }
+  .about,
+  .futures,
+  .services,
+  .vision,
+  .product {
+    position: relative;
+    left: 10%;
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 80%;
+    padding-right: 15px;
+    padding: 3% 1% 5% 2%;
+    margin: 2%;
+  }
+
+  address {
+    position: relative;
+    padding: 1%;
+    width: 32%;
+    left: 35%;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    position: relative;
+    left: -6%;
+  }
+  address h3 p.contact-content {
+    text-align: center;
+  }
+  footer {
+    width: 75%;
+    position: relative;
+    left: 15%;
+  }
+  hr {
+    position: relative;
+    left: 2%;
+    width: 75%;
+  }
+  hr.bottom-hr {
+    margin-bottom: 4%;
+  }
+} */
