@@ -161,23 +161,19 @@ nav {
   margin-bottom: 60px;
   justify-content: space-between;
   align-items: flex-end;
-  
 }
 .navigation {
   width: 70%;
   display: flex;
   justify-content: space-between;
-  
 }
 .navigation a {
   font-size: 18px;
   margin: 10px 0 0 0;
   text-decoration: none;
-
 }
 
 .logo {
-  
 }
 .navigation a:hover {
   color: red;
@@ -292,7 +288,6 @@ address {
   }
   nav {
     flex-wrap: wrap;
-   
   }
   .navigation {
     width: 100%;
@@ -300,7 +295,6 @@ address {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
   }
   .navigation a {
     font-size: 18px;
@@ -308,31 +302,58 @@ address {
     text-decoration: none;
   }
 
-img.logo {
-  width: auto;
-  order: -1;
-  margin: 0 auto;
-
-}
-.main{
-  width: 100%;
-}
-.logo2 {
-  display: none;
-}
+  img.logo {
+    width: auto;
+    order: -1;
+    margin: 0 auto;
   }
+  .main {
+    width: 100%;
+  }
+  .logo2 {
+    display: none;
+  }
+}
 
 @media (max-width: 500px) {
- 
- .navigation {
-  flex-direction: column;
- }
- .navigation a{
-  border-top: 1px solid gray;
-  width:100%;
-  text-align: center;
-  font-size: 1.3rem;
-  color: black;
- }
+  .navigation {
+    flex-direction: column;
+  }
+  .navigation a {
+    border-top: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+  }
+  .top-section {
+    flex-direction: column;
+    justify-content: none;
+  }
+  .futures,
+  .about {
+    width: 100%;
+  }
+  .about {
+    margin-top: 6%;
+  }
+  .section-bottom {
+    flex-direction: column;
+  }
+  .services,
+  .product,
+  .vision {
+    width: 100%;
+  }
+  .services {
+    margin-bottom: 6%;
+  }
+  .product {
+    margin: 0;
+    margin-bottom: 6%;
+  }
+  address {
+    text-align: center;
+    margin-bottom: 8%;
+  }
 }
-
