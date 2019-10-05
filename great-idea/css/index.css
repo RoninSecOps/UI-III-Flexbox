@@ -152,7 +152,7 @@ h5 {
 
 /* Your code starts here! */
 body {
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
@@ -280,8 +280,6 @@ address {
   text-align: center;
 }
 
-/* ------------Test Code----------- */
-
 @media (max-width: 800px) {
   body {
     margin: 0 5%;
@@ -329,7 +327,6 @@ address {
   .navigation a:last-child {
     border-bottom: 1px solid gray;
     padding-bottom: 2%;
-    
   }
   .top-section {
     flex-direction: column;
