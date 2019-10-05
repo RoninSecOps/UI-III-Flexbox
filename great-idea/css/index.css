@@ -326,6 +326,11 @@ address {
     font-size: 1.3rem;
     color: black;
   }
+  .navigation a:last-child {
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+    
+  }
   .top-section {
     flex-direction: column;
     justify-content: none;
